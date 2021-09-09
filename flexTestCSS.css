@@ -1,0 +1,28 @@
+.block {
+}
+.block_row {
+  display: flex;
+  align-items: center;
+
+  border: 30px solid rgb(241, 225, 72);
+  margin: 0 0 20 0;
+}
+.block_column {
+  border: 20px solid rgb(141, 118, 180);
+  flex-basis: 30%;
+}
+
+.block_item {
+  font-size: 50px;
+  margin-bottom: 20px;
+  padding: 30px 30px;
+  font-weight: 700;
+  background-color: teal;
+}
+
+.element2 {
+  order: 3;
+}
+.element1 {
+  order: 2;
+}
